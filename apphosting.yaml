@@ -1,17 +1,25 @@
+# const firebaseConfig = {
+#   apiKey: "AIzaSyBvdXrGInM0HDBPq5YgyWWEDMLwMSMbAt4",
+#   authDomain: "friendlyeats-nextjs-61345.firebaseapp.com",
+#   projectId: "friendlyeats-nextjs-61345",
+#   storageBucket: "friendlyeats-nextjs-61345.appspot.com",
+#   messagingSenderId: "1048770515738",
+#   appId: "1:1048770515738:web:b77b955b1814b0b5fb52a3"
+# };
 runConfig:
   minInstances: 0
   maxInstances: 2
 env:
   # Get these values from the Firebase console
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-    value: TODO
+    value: AIzaSyBvdXrGInM0HDBPq5YgyWWEDMLwMSMbAt4
   - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-    value: TODO
+    value: friendlyeats-nextjs-61345.firebaseapp.com
   - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-    value: TODO
+    value: friendlyeats-nextjs-61345
   - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-    value: TODO
+    value: friendlyeats-nextjs-61345.appspot.com
   - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-    value: TODO
+    value: 1048770515738
   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-    value: TODO
+    value: 1:1048770515738:web:b77b955b1814b0b5fb52a3
